@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+.contenedor h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.contenido{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenido .info, .formulario{
+    width: 50%;
+}
+
+
+.info{
+    padding-left: 10px;
+}
+
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info .col .icono{
+    color: #15CF8A;
+    margin-right: 10px;
+}
+
+.info .col p{
+    color: #999;
+}
+
+
+
+
+/*Estilos formulario*/
+
+ input[type='text'],input[type="email"],input[type="date"]{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+}
+
+button{
+    padding: 12px 30px;
+    border: transparent;
+    background: #15CF8A;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+    float: left;
+}
+button:hover{
+    background-color: red;
+}
+.limpiar{
+    margin-left: 30px;
+}
+
+
+/*Estilos formulario*/
+
+footer{
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

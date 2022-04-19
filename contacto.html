@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html"><b>Inicio</b></a></li>
+                <li><a href="detalles.html"><b>Detalles</b></a>
+				<li><a href="galeria.html"><b>Galería de imágenes</b></a></li>
+				<li><a href="contacto.html"><b>Formulario de contacto</b></a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    <div class="contenedor">
+        <h1>Formulario de contacto</h1>
+        <div class="contenido">
+            <div class="info">
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Puerto varas - CHILE</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>Nico.mirandawerner@gmail.com</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p>+569-5496-1452</p>
+                </div>
+            </div>
+
+            <form method="post" class="formulario">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="email" name="correo" placeholder="Correo electróico">
+                <label for="Fecha">Fecha de nacimiento: </label><br>
+                <input type="date" name="Fecha"><br>
+                <br>
+                <button type="button" >Enviar</button>
+                <button class="limpiar" type="reset">Limpiar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        &copy;Puerto Varas<br>
+        <p><b>Creado por Nicolás Miranda Werner</b>
+    </footer>
+</body>
+</html>
